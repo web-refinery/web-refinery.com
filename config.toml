@@ -27,6 +27,11 @@ highlight_theme = "gruvbox-dark"
 
 [extra]
 # Put all your custom variables here
-copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
+copyright = 'This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
+
+anpu_menu_links = [
+    { url = "https://stars.web-refinery.com/", name = "My Starred Repos" },
+    { url = "https://github.com/xanderificnl/", name = "GitHub" }
+]
 
 instantpage_enable = true
