@@ -51,7 +51,9 @@
         </main>
         <footer>
             <p>
+	    	{% block copyright %}
                 © {{ config.title }} {{ now() | date(format="%Y") }}<br>
+		{% endblock %}
                 Powered by <a target="_blank" href="https://getzola.org/">Zola</a>, Theme <a target="_blank" href="https://github.com/zbrox/anpu-zola-theme">Anpu</a>.
             </p>
             <p>
